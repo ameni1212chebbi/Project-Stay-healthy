@@ -34,8 +34,7 @@ function tabulateAnswers() {
       }
     }
     
-    // Find out which choice got the highest score.
-    // If you add more choices and outcomes, you must add the variable here.
+    
     var maxscore = Math.max(c1score,c2score,c3score,c4score,c5score);
     
     // Display answer corresponding to that choice
@@ -58,7 +57,7 @@ function tabulateAnswers() {
     // 
   }
   
-  // program the reset button
+  // the reset button
   function resetAnswer() {
     var answerbox = document.getElementById('answer');
     answerbox.innerHTML = "Your result will show up here!";
